@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+
+}
+.hero-container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,#34343480,#3434348a), url('./images/hero-image.jpg');
+    background: cover;
+    background-size:cover;
+    margin-top: 10vh;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
